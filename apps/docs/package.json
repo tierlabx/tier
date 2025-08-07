@@ -1,28 +1,28 @@
 {
   "name": "docs",
-  "version": "0.1.0",
-  "type": "module",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev --turbopack --port 3001",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint --max-warnings 0",
-    "check-types": "tsc --noEmit"
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@tier/ui": "workspace:*",
-    "next": "^15.4.3",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "@tier/ui": "workspace:*"
   },
   "devDependencies": {
     "@tier/eslint-config": "workspace:*",
     "@tier/typescript-config": "workspace:*",
-    "@types/node": "^22.15.3",
-    "@types/react": "19.1.0",
-    "@types/react-dom": "19.1.1",
-    "eslint": "^9.31.0",
-    "typescript": "5.8.2"
+    "eslint": "^8.57.0",
+    "typescript": "5.5.4",
+    "vite": "^5.1.4",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.18"
   }
 }
