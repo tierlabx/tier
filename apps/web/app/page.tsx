@@ -31,6 +31,9 @@ export default function Home() {
           height={38}
           priority
         />
+        <h1 className="text-3xl font-bold underline text-red-500">
+          Hello world!
+        </h1>
         <ol>
           <li>
             Get started by editing <code>apps/web/app/page.tsx</code>
